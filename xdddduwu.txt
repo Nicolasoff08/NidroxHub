@@ -1,11 +1,6 @@
-nouni=false
-local function lo(l)
-loadstring(game:HttpGet(l,true))()
-nouni=true
-end
 if game.PlaceId==2788229376 then
-lo("https://raw.githubusercontent.com/Nicolasoff08/P.A.D.P-Support-L-O-A-D-E-D/main/Protected.lua")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicolasoff08/P.A.D.P-Support-L-O-A-D-E-D/main/Protected.lua")
 end
 if game.PlaceId==1962086868 then
-lo("https://raw.githubusercontent.com/Nicolasoff08/NidroxHub/main/Protected%20(2).lua")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicolasoff08/NidroxHub/main/Protected%20(2).lua")
 end
